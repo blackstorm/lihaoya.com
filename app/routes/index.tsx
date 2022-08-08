@@ -51,7 +51,7 @@ export default function Index() {
         </div>
 
         <Block name="First of all">
-          <p>The website build with amazing
+          <p>The website built with amazing
             <a href="https://remix.run/" className="ml-1 text-red-700 mr-1" target="__blank">Remix</a>
             <a href="https://tailwindcss.com/" className="text-blue-700 mr-1" target="__blank">Tailwindcss</a>
             <a href="https://pnpm.io/" className="text-yellow-700 mr-1" target="__blank">PnPm</a>
@@ -61,16 +61,16 @@ export default function Index() {
 
         <Block name="About me">
           <p>
-            I was born in 1996. I am {age} years old. I am a programmer and live in Shanghai, China.
+            I am {age} years old, born in 1996. I am a programmer and live in Shanghai, China.
           </p>
           <p>
-            I started coding in high school. My favorite programming language is <Code>Java</Code>. I also write a lot of <Code>Go</Code> and <Code>kotlin</Code>.
+            My favorite programming language is <Code>Java</Code>. I also write <Code>Go</Code> and <Code>kotlin</Code>.
           </p>
           <p>
             I love smoking pipe. Pipe make me calm(I'm fairly casual).
           </p>
           <p>
-            Hiking is most important thing to me. Walk all day and sleep in the mountains before nightfall. The best hiking memories for me are the <a className="text-blue-700" href="https://goo.gl/maps/rTHsxTzTDN5JMnHm7">Hui Hang Ancient Road</a> and <a className="text-blue-700" href="https://goo.gl/maps/EBvPvSPAV7evsb45A">Shang Qing Ancient Road</a>.
+            Hiking is the most important thing to me. My best hiking memories are the <a className="text-blue-700" href="https://goo.gl/maps/rTHsxTzTDN5JMnHm7">Hui Hang Ancient Road</a> and <a className="text-blue-700" href="https://goo.gl/maps/EBvPvSPAV7evsb45A">Shang Qing Ancient Road</a>.
           </p>
         </Block>
 
@@ -104,7 +104,6 @@ export default function Index() {
         </Block>
 
       </div>
-
     </div>
   );
 }
