@@ -14,7 +14,7 @@ function SideProject({ name, children }: PropsWithChildren<SideProjectProps>) {
       <h4 className="font-bold">
         {name}
       </h4>
-      <div className="text-sm text-gray-800">
+      <div className="text-sm">
         {children}
       </div>
     </div>
@@ -79,7 +79,7 @@ export default function Index() {
           <p>Earlier, I coded for <MyShapeLogo /> an AI fitness company long time. I built and assembled a great back-end architecture and back-end team until it was acquired by <SpaceLogo /> in  2021.</p>
         </Block>
 
-        <Block name="Side project" space={2}>
+        <Block name="Side project">
           <SideProject name="typetype.io(closed)">
             <p>
               TYPETYPE is a blog creator. You can create your own blog on TYPETYPE. It's very lightweight and easy to use.
