@@ -1,8 +1,8 @@
 import { PropsWithChildren, useState } from "react";
 import Code from '~/components/Code';
+import { ExternalLink } from "~/components/Link";
 import MyShapeLogo from "~/components/logos/MyShape";
 import SpaceLogo from "~/components/logos/Space";
-import LogoZZULI from "~/images/zzuli.png";
 
 type SideProjectProps = {
   name: string;
@@ -45,7 +45,7 @@ export default function Index() {
       <div className="p-4 md:p-8 space-y-8">
 
         <div className="mt-8 md:mt-10 flex flex-col space-y-4">
-          <img className="h-10 w-10" src="https://cdn.v2ex.com/avatar/683e/f8a4/86595_large.png" alt="" />
+          <img className="h-16 w-16" src="https://avatars.githubusercontent.com/u/13211110" alt="" />
           <h1 className="text-4xl font-bold">Hello There 👋🏻</h1>
           <h2 className="text-lg font-bold">I'm Haoya, welcome to my website!</h2>
         </div>
@@ -70,12 +70,12 @@ export default function Index() {
             I love smoking pipe. Pipe make me calm(I'm fairly casual).
           </p>
           <p>
-            Hiking is the most important thing to me. My best hiking memories are the <a className="text-blue-700" href="https://goo.gl/maps/rTHsxTzTDN5JMnHm7">Hui Hang Ancient Road</a> and <a className="text-blue-700" href="https://goo.gl/maps/EBvPvSPAV7evsb45A">Shang Qing Ancient Road</a>.
+            Hiking is the most important thing to me. My best hiking memories are the <ExternalLink url="https://goo.gl/maps/rTHsxTzTDN5JMnHm7" title="Hui Hang Ancient Road" /> and  <ExternalLink url="https://goo.gl/maps/EBvPvSPAV7evsb45A" title="Shang Qing Ancient Road" />.
           </p>
         </Block>
 
         <Block name="Work">
-          <p>Now I'm working for a supa cool startup company <SpaceLogo /> as a Tech Leader.</p>
+          <p>Now I'm working for a supa cool startup company <SpaceLogo /></p>
           <p>Earlier, I coded for <MyShapeLogo /> an AI fitness company long time. I built and assembled a great back-end architecture and back-end team until it was acquired by <SpaceLogo /> in  2021.</p>
         </Block>
 
@@ -95,13 +95,11 @@ export default function Index() {
           </SideProject>
         </Block>
 
-        <Block name="Education">
-          <p className="flex items-center"><img className="w-5 h-5 mr-1" src={LogoZZULI} alt="" /> Zhengzhou University of Light Industry</p>
-        </Block>
-
         <Block name="Contact me">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAAATBAMAAAB8R8JwAAAAG1BMVEX///8AAAB/f38/Pz8fHx9fX1+fn5+/v7/f39+f12ZXAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABmElEQVQ4jc2Sz2+CMBSAH2KhR1EEjiVjd3Rk2VEliEc2PexYssuOsCzLjqBs8c9eW5lS9sOYePBdyNc+vr6+PoDLD4WIz8bsTOcyAGiBedtIxaTeb/z3Z3hFkKVUBhw+46fFIUf1TxAusQ1oIsMrFfIThQpRrsyka1gAnZ4EMAZv7qkJeCaFPiB/ZJREwK47yObnmbslazTbmLQWWnoflryCiQTaRL2rIr2HYq0vhLxCAassJQq5z9ixsT4TSwZ14w+nFiZwIxw5lUAlacFS7ZKCuxdywBa/zDUvkCGI/SGUCbZrIWEG5sBRC7IIdBvitIA8+xZyeHPYujJN+LGsw/W+QtvCypehLCzQHXBcVsReyOGlB9hWBvyCTAb1/g8hq0mGcsuuxjpZV6C2KiThkQqrpA0sq/K7VPRoBl0fST0kOW308Bdh2AZEVtvR4xh2D7t1fbSQXlllM49iHNVT0BZqhmE4EugOGqz5bPE5+zAffDzNm3OIhx1nP4cH4T+xYg0C7VjWCdEZvsNnkJ1PCOvACOkZfRcRXzPgbWHv1j5zAAAAAElFTkSuQmCC" alt="" />
         </Block>
+
+        <p className="text-sm">The website is open source and you can find it on <ExternalLink url="https://github.com" title="GitHub" />.</p>
 
       </div>
     </div>

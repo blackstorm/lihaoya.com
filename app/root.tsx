@@ -7,11 +7,13 @@ import {
   Scripts,
   ScrollRestoration
 } from "@remix-run/react";
+import favicon from "./images/favicon.png";
 import styles from "./styles/app.css";
 import customStyle from "./styles/custom.css";
 
 export function links() {
   return [
+    { rel: "icon", href: favicon },
     { rel: "stylesheet", href: styles },
     { rel: "stylesheet", href: customStyle },
   ]
@@ -19,8 +21,8 @@ export function links() {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Haoya",
-  description: "Haoya's website.",
+  title: "Haoya's website",
+  description: "Haoya's website",
   viewport: "width=device-width,initial-scale=1",
 });
 
