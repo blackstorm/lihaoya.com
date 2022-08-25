@@ -10,7 +10,7 @@ type SideProjectProps = {
 
 function SideProject({ name, children }: PropsWithChildren<SideProjectProps>) {
   return (
-    <div className="space-y-1">
+    <div className="space-y-1 bg-stone-100 p-2 rounded-lg">
       <h4 className="font-bold">
         {name}
       </h4>
@@ -24,11 +24,12 @@ function SideProject({ name, children }: PropsWithChildren<SideProjectProps>) {
 type BlockProps = {
   name: string;
   space?: number;
+  className?: string;
 }
 
-function Block({ name, children, space = 1 }: PropsWithChildren<BlockProps>) {
+function Block({ className, name, children, space = 1 }: PropsWithChildren<BlockProps>) {
   return (
-    <div className={`space-y-${space}`}>
+    <div className={`space-y-${space} ${className}`}>
       <h3 className="text-lg font-bold">{name}</h3>
       {children}
     </div>
@@ -38,14 +39,14 @@ function Block({ name, children, space = 1 }: PropsWithChildren<BlockProps>) {
 export default function Index() {
 
   const now = new Date();
-  const [age, setAge] = useState(now.getFullYear() - 1996);
+  const [age] = useState(now.getFullYear() - 1996);
 
   return (
-    <div className="min-h-screen w-full">
+    <div className="min-h-screen w-full md:w-7/12">
       <div className="p-4 md:p-8 space-y-8">
 
         <div className="mt-8 md:mt-10 flex flex-col space-y-4">
-          <img className="h-16 w-16" src="https://avatars.githubusercontent.com/u/13211110" alt="" />
+          <img className="md:w-12 md:h-12 h-16 w-16" src="https://avatars.githubusercontent.com/u/13211110" alt="" />
           <h1 className="text-4xl font-bold">Hello There 👋🏻</h1>
           <h2 className="text-lg font-bold">I'm Haoya, welcome to my website!</h2>
         </div>
@@ -79,7 +80,7 @@ export default function Index() {
           <p>Earlier, I coded for <MyShapeLogo /> an AI fitness company long time. I built and assembled a great back-end architecture and back-end team until it was acquired by <SpaceLogo /> in  2021.</p>
         </Block>
 
-        <Block name="Side project">
+        <Block name="Side project" space={4}>
           <SideProject name="typetype.io(closed)">
             <p>
               TYPETYPE is a blog creator. You can create your own blog on TYPETYPE. It's very lightweight and easy to use.
