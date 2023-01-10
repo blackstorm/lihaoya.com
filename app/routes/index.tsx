@@ -48,16 +48,17 @@ export default function Index() {
         <div className="mt-8 md:mt-10 flex flex-col space-y-4">
           <img className="md:w-12 md:h-12 h-16 w-16" src="https://avatars.githubusercontent.com/u/13211110" alt="" />
           <h1 className="text-4xl font-bold">Hello There 👋🏻</h1>
-          <h2 className="text-lg font-bold">I'm Haoya, welcome to my website!</h2>
+          <h2 className="text-lg font-bold">My name is Haoya, welcome to my website!</h2>
         </div>
 
-        <Block name="First of all">
+        <Block name="🫶">
           <p>The website built with amazing
             <a href="https://remix.run/" className="ml-1 text-red-700 mr-1" target="__blank">Remix</a>
             <a href="https://tailwindcss.com/" className="text-blue-700 mr-1" target="__blank">Tailwindcss</a>
             <a href="https://pnpm.io/" className="text-yellow-700 mr-1" target="__blank">PnPm</a>
             and really enjoyed!
           </p>
+          <p><a href="https://github.com/blackstorm/lihaoya.com" className="text-blue-700 mr-1" target="__blank">Check on GitHub</a></p>
         </Block>
 
         <Block name="About me">
@@ -65,7 +66,7 @@ export default function Index() {
             I am {age} years old, born in 1996. I am a programmer and live in Shanghai, China.
           </p>
           <p>
-            My favorite programming language is <Code>Java</Code>. I also write <Code>Go</Code> and <Code>kotlin</Code>.
+            My favorite programming language is <Code>Java</Code>, I also write <Code>Ruby</Code> and <Code>Go</Code>.
           </p>
           <p>
             I love smoking pipe. Pipe make me calm(I'm fairly casual).
@@ -73,6 +74,13 @@ export default function Index() {
           <p>
             Hiking is the most important thing to me. My best hiking memories are the <ExternalLink url="https://goo.gl/maps/rTHsxTzTDN5JMnHm7" title="Hui Hang Ancient Road" /> and  <ExternalLink url="https://goo.gl/maps/EBvPvSPAV7evsb45A" title="Shang Qing Ancient Road" />.
           </p>
+          <p>
+            I really like cycle.
+          </p>
+        </Block>
+
+        <Block name="Blog">
+          <p><ExternalLink url="https://blog.lihaoya.com" title="Click to visit my blog"></ExternalLink></p>
         </Block>
 
         <Block name="Work">
@@ -81,6 +89,11 @@ export default function Index() {
         </Block>
 
         <Block name="Side project" space={4}>
+        <SideProject name="Goose blog">
+            <p>
+              <ExternalLink url="https://github.com/blackstorm/goose" title="Goose blog"></ExternalLink> is a lightweight txt style blog application built with rails.
+            </p>
+          </SideProject>
           <SideProject name="typetype.io(closed)">
             <p>
               TYPETYPE is a blog creator. You can create your own blog on TYPETYPE. It's very lightweight and easy to use.
@@ -88,15 +101,15 @@ export default function Index() {
           </SideProject>
 
           <SideProject name="LoopLoop(closed)">
-            <p>LoopLoop(循环英语) can listen to English conversations indefinitely, it runs on Wechat, i built it with my friend in a few weekends. </p>
+            <p>LoopLoop(循环英语) can listen to English conversations indefinitely, it runs on Wechat, I built it with my friend in a few weekends. </p>
           </SideProject>
 
           <SideProject name="目价">
-            <p>目价  is a very simple application that displays real-time stock prices on your Mac status bar.</p>
+            <p>目价 is a very small and fast application that displays real-time stock prices on your Mac status bar.</p>
           </SideProject>
         </Block>
 
-        <Block name="Contact me">
+        <Block name="Email">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAAATBAMAAAB8R8JwAAAAG1BMVEX///8AAAB/f38/Pz8fHx9fX1+fn5+/v7/f39+f12ZXAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABmElEQVQ4jc2Sz2+CMBSAH2KhR1EEjiVjd3Rk2VEliEc2PexYssuOsCzLjqBs8c9eW5lS9sOYePBdyNc+vr6+PoDLD4WIz8bsTOcyAGiBedtIxaTeb/z3Z3hFkKVUBhw+46fFIUf1TxAusQ1oIsMrFfIThQpRrsyka1gAnZ4EMAZv7qkJeCaFPiB/ZJREwK47yObnmbslazTbmLQWWnoflryCiQTaRL2rIr2HYq0vhLxCAassJQq5z9ixsT4TSwZ14w+nFiZwIxw5lUAlacFS7ZKCuxdywBa/zDUvkCGI/SGUCbZrIWEG5sBRC7IIdBvitIA8+xZyeHPYujJN+LGsw/W+QtvCypehLCzQHXBcVsReyOGlB9hWBvyCTAb1/g8hq0mGcsuuxjpZV6C2KiThkQqrpA0sq/K7VPRoBl0fST0kOW308Bdh2AZEVtvR4xh2D7t1fbSQXlllM49iHNVT0BZqhmE4EugOGqz5bPE5+zAffDzNm3OIhx1nP4cH4T+xYg0C7VjWCdEZvsNnkJ1PCOvACOkZfRcRXzPgbWHv1j5zAAAAAElFTkSuQmCC" alt="" />
         </Block>
 
