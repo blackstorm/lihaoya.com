@@ -38,6 +38,7 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <script data-goatcounter="https://lihaoya.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
       </body>
     </html>
   );
