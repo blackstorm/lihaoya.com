@@ -109,6 +109,16 @@ export default function Index() {
           </SideProject>
         </Block>
 
+        <Block name="Domain">
+          <p>I have some domains for sale, if you are interesting please contact me by email.</p>
+          <ul className="p-4 bg-stone-100 p-2 rounded-lg space-y-2">
+            <li>bitbb.net</li>
+            <li>nidejianli.com</li>
+            <li>bookdoge.com</li>
+            <li>hostingthousands.com</li>
+          </ul>
+        </Block>
+
         <Block name="Email">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAAATBAMAAAB8R8JwAAAAG1BMVEX///8AAAB/f38/Pz8fHx9fX1+fn5+/v7/f39+f12ZXAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABmElEQVQ4jc2Sz2+CMBSAH2KhR1EEjiVjd3Rk2VEliEc2PexYssuOsCzLjqBs8c9eW5lS9sOYePBdyNc+vr6+PoDLD4WIz8bsTOcyAGiBedtIxaTeb/z3Z3hFkKVUBhw+46fFIUf1TxAusQ1oIsMrFfIThQpRrsyka1gAnZ4EMAZv7qkJeCaFPiB/ZJREwK47yObnmbslazTbmLQWWnoflryCiQTaRL2rIr2HYq0vhLxCAassJQq5z9ixsT4TSwZ14w+nFiZwIxw5lUAlacFS7ZKCuxdywBa/zDUvkCGI/SGUCbZrIWEG5sBRC7IIdBvitIA8+xZyeHPYujJN+LGsw/W+QtvCypehLCzQHXBcVsReyOGlB9hWBvyCTAb1/g8hq0mGcsuuxjpZV6C2KiThkQqrpA0sq/K7VPRoBl0fST0kOW308Bdh2AZEVtvR4xh2D7t1fbSQXlllM49iHNVT0BZqhmE4EugOGqz5bPE5+zAffDzNm3OIhx1nP4cH4T+xYg0C7VjWCdEZvsNnkJ1PCOvACOkZfRcRXzPgbWHv1j5zAAAAAElFTkSuQmCC" alt="" />
         </Block>
