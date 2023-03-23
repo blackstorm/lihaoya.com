@@ -58,7 +58,7 @@ export default function Index() {
             <a href="https://pnpm.io/" className="text-yellow-700 mr-1" target="__blank">PnPm</a>
             and really enjoyed!
           </p>
-          <p><a href="https://github.com/blackstorm/lihaoya.com" className="text-blue-700 mr-1" target="__blank">Check on GitHub</a></p>
+          <p><a href="https://github.com/blackstorm/lihaoya.com" className="text-blue-700 mr-1" target="__blank">My GitHub</a></p>
         </Block>
 
         <Block name="About me">
@@ -66,7 +66,7 @@ export default function Index() {
             I am {age} years old, born in 1996. I am a programmer and live in Shanghai, China.
           </p>
           <p>
-            My favorite programming language is <Code>Java</Code>, I also write <Code>Ruby</Code> and <Code>Go</Code>.
+            My favorite programming language is <Code>Java</Code> and <Code>Golang</Code>, I also write some other programming languages like <Code>Rust</Code> <Code>Python</Code> <Code>JavaScript</Code>.
           </p>
           <p>
             I love smoking pipe. Pipe make me calm(I'm fairly casual).
@@ -75,12 +75,12 @@ export default function Index() {
             Hiking is the most important thing to me. My best hiking memories are the <ExternalLink url="https://goo.gl/maps/rTHsxTzTDN5JMnHm7" title="Hui Hang Ancient Road" /> and  <ExternalLink url="https://goo.gl/maps/EBvPvSPAV7evsb45A" title="Shang Qing Ancient Road" />.
           </p>
           <p>
-            I really like cycle.
+            I like cycle and bicycle.
           </p>
         </Block>
 
         <Block name="Blog">
-          <p><ExternalLink url="https://blog.lihaoya.com" title="Click to visit my blog"></ExternalLink></p>
+          <p><ExternalLink url="https://blog.lihaoya.com" title="Go to my blog"></ExternalLink></p>
         </Block>
 
         <Block name="Work">
