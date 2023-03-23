@@ -89,6 +89,11 @@ export default function Index() {
         </Block>
 
         <Block name="Side project" space={4}>
+        <SideProject name="China Holidays API">
+            <p>
+              <ExternalLink url="https://jiejiariapi.com" title="China Holidays API"></ExternalLink> provided some APIs like get 2023 year's holidays, weekends, workdays, etc.
+            </p>
+          </SideProject>
         <SideProject name="Goose blog">
             <p>
               <ExternalLink url="https://github.com/blackstorm/goose" title="Goose blog"></ExternalLink> is a lightweight txt style blog application built with rails.
