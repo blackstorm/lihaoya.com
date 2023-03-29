@@ -121,6 +121,7 @@ export default function Index() {
             <li>nidejianli.com</li>
             <li>bookdoge.com</li>
             <li>hostingthousands.com</li>
+            <li>web3a.org</li>
           </ul>
         </Block>
 
