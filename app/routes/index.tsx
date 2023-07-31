@@ -126,6 +126,8 @@ export default function Index() {
             <li>dulikaifaok.com</li>
             <li>changhuads.com</li>
             <li>mydotlist.com</li>
+            <li>huangliapi.com</li>
+            <li>gujiaapi.com</li>
           </ul>
         </Block>
 
