@@ -128,6 +128,8 @@ export default function Index() {
             <li>mydotlist.com</li>
             <li>huangliapi.com</li>
             <li>gujiaapi.com</li>
+            <li>fastlk99.com</li>
+            <li>lk99ok.com</li>
           </ul>
         </Block>
 
