@@ -127,6 +127,7 @@ export default function Index() {
             <li>changhuads.com 长话短说</li>
             <li>huangliapi.com 黄历 API</li>
             <li>gujiaapi.com 股价 API</li>
+            <li>shutiaoai.com 薯条 AI</li>
             <li>fastlk99.com</li>
             <li>lk99ok.com</li>
             <li>openyea.com</li>
