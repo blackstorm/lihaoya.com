@@ -117,19 +117,19 @@ export default function Index() {
         <Block name="Domain">
           <p>I have some domains for sale, if you are interesting please contact me by email.</p>
           <ul className="p-4 bg-stone-100 p-2 rounded-lg space-y-2">
-            <li>bitbb.net</li>
-            <li>nidejianli.com</li>
+            <li>bitbb.net bitcoin blockchain net</li>
+            <li>nidejianli.com 你的简历</li>
             <li>bookdoge.com</li>
             <li>hostingthousands.com</li>
-            <li>web3a.org</li>
-            <li>yuanchengok.com</li>
-            <li>dulikaifaok.com</li>
-            <li>changhuads.com</li>
-            <li>mydotlist.com</li>
-            <li>huangliapi.com</li>
-            <li>gujiaapi.com</li>
+            <li>web3a.org web3 avatar</li>
+            <li>yuanchengok.com 远程 OK</li>
+            <li>dulikaifaok.com 独立开发 OK</li>
+            <li>changhuads.com 长话短说</li>
+            <li>huangliapi.com 黄历 API</li>
+            <li>gujiaapi.com 股价 API</li>
             <li>fastlk99.com</li>
             <li>lk99ok.com</li>
+            <li>openyea.com</li>
           </ul>
         </Block>
 
